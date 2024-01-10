@@ -33,7 +33,7 @@ public class MidTerm {
                 check = false;
 
             } catch (ParseException e) {
-                System.out.println("Invalid date format. Please enter date in the format YYYY-MM-DD.");
+                System.out.println("Invalid date. Please enter date in the format YYYY-MM-DD.INVALID DATE. PLEASE ENTER DATE AGAIN (YYYY-MM-DD).\n ");
             }
         } while (check);
 
